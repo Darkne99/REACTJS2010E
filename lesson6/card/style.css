@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9f3f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    overflow: hidden;
+    border-radius: 3%;
+    width: 840px;
+    height: 780px;
+    margin: 0 auto;
+    box-shadow: 1px 21px 50px -20px black;
+}
+
+.card:hover .card__hover {
+    display: block;
+}
+
+.card__hover {
+    display: none;
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    line-height: 546px;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    background-color: rgb( 0, 0, 0, 0.6);
+}
+
+.card {
+    padding: 10% 0px;
+    height: 70%;
+    width: 100%;
+    background-color: #b1dbe7;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.card__yeti {
+    height: 90%;
+    display: block;
+    margin: auto;
+}
+
+.card__circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 71%;
+    left: 18%;
+    bottom: 10%;
+    box-shadow: 1px 9px 20px -10px black;
+}
+
+.fa-plus {
+    position: absolute;
+    bottom: 46px;
+    left: 46px;
+    font-size: 65px;
+}
+
+.card__triangle {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-top: 60px solid #b1dbe7;
+    top: 100%;
+    left: 44.5%;
+}
+
+.content {
+    height: 30%;
+    line-height: 234px;
+    font-size: 100px;
+    font-family: 'Athiti', sans-serif;
+    text-align: center;
+}
