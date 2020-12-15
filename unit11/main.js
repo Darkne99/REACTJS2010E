@@ -39,3 +39,5 @@ console.log(fruits)
 const remote = fruits.splice (2, 3)
 console.log (fruits)
 console.log (remote)
+
+
