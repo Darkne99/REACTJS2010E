@@ -13,7 +13,6 @@ console.log(cleanArray);
 // Bài 4
 // Tạo ra 1 array gồm các object có key và value tương ứng cặp array ban đầu
 const iterable = new Set (['a', 1], ['b', 2]);
-
 for (const value of iterable) {
   console.log(value);
 }
@@ -29,7 +28,6 @@ console.log(points);
 // Bài 6
 // Kiểm tra input đầu vào có phải là object hay không?
 typeof {a: 1} === 'object';
-
 
 // Bài 8
 // Viết hàm nhập vào 1 array có nhiều hơn 5 phần tử Xóa phần tử số 2, 3 trong array Return mảng sau khi đã xóa
