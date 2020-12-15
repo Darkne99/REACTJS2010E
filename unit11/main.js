@@ -35,7 +35,6 @@ typeof {a: 1} === 'object';
 // Viết hàm nhập vào 1 array có nhiều hơn 5 phần tử Xóa phần tử số 2, 3 trong array Return mảng sau khi đã xóa
 const fruits = ['apple', 'banana', 'mango', 'coconut', 'potato', 'sapodilla']
 console.log(fruits)
-
 const remote = fruits.splice (2, 3)
 console.log (fruits)
 console.log (remote)
